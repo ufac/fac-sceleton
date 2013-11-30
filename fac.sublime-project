@@ -1,0 +1,27 @@
+{
+    "file_exclude_patterns": ["empty"],
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+            "folder_exclude_patterns": ["*"],
+			"name": "/",
+			"path": "."
+		},
+		{
+			"follow_symlinks": true,
+            "file_exclude_patterns": ["empty"],
+			"path": "app"
+		},
+		{
+			"follow_symlinks": true,
+            "file_exclude_patterns": ["empty"],
+			"path": "config"
+		},
+		{
+			"follow_symlinks": true,
+            "file_exclude_patterns": ["empty"],
+			"path": "public"
+		}
+	]
+}
