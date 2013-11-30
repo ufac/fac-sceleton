@@ -33,6 +33,6 @@ temp-*
 /vendors
 /private
 
-!/vendors/empty
+!/vendor/empty
 !/logs/README.md
 !/tmp/empty
