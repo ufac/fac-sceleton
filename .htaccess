@@ -1,0 +1,5 @@
+# dnwr_host  smart-queue
+
+#RewriteEngine on
+#RewriteRule    ^$ html/    [L]
+#RewriteRule    (.*) html/$1 [L]

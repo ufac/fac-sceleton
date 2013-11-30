@@ -1,0 +1,5 @@
+# Disable LF normalization for all files
+*           -crlf
+.*          eol=lf
+*.sh        eol=lf
+*.md        eol=lf
