@@ -1,27 +1,46 @@
 {
-    "file_exclude_patterns": ["empty"],
 	"folders":
 	[
 		{
+			"folder_exclude_patterns":
+			[
+				"*"
+			],
 			"follow_symlinks": true,
-            "folder_exclude_patterns": ["*"],
 			"name": "/",
 			"path": "."
 		},
 		{
+			"file_exclude_patterns":
+			[
+				"empty"
+			],
 			"follow_symlinks": true,
-            "file_exclude_patterns": ["empty"],
 			"path": "app"
 		},
 		{
+			"file_exclude_patterns":
+			[
+				"empty"
+			],
 			"follow_symlinks": true,
-            "file_exclude_patterns": ["empty"],
 			"path": "config"
 		},
 		{
+			"file_exclude_patterns":
+			[
+				"empty"
+			],
 			"follow_symlinks": true,
-            "file_exclude_patterns": ["empty"],
 			"path": "public"
+		},
+		{
+			"file_exclude_patterns":
+			[
+				"empty"
+			],
+			"follow_symlinks": true,
+			"path": "templates"
 		}
 	]
 }

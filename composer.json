@@ -1,0 +1,21 @@
+{
+    "name": "fac/fac-skeleton",
+    "description": "A fac lib skeleton application for rapid development",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitriy Tyurin",
+            "email": "fobia3d@gmail.com",
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "monolog/monolog": "~1.6",
+        "slim/slim": "~2.3",
+        "slim/views": "0.*",
+        "twig/twig": "~1.13",
+        "php-console/php-console": "dev-master",
+        "mustangostang/spyc":"dev-master",
+        "silex/silex": "~1.1"
+    }
+}
